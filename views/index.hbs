@@ -1,0 +1,22 @@
+
+<h1>
+    WEATHER FETCH
+</h1>
+<form action="/" method="post" class="location">
+    <input type="text" name="location" placeholder="Location">
+    <button type="submit">search</button>
+</form>
+
+<div class="container"></div>
+    <div class="icon" > <img src="{{icon_source}}" height="100" width="100" > </div>
+    <div class="location"><b>{{place}}</b></div>
+    <div class="description">{{desc}}</div>
+    <div class="data">
+    <table>
+        <tr class="temp"><td>Temperature</td><td>{{temp}}° C</td></tr>
+        <tr class="maxtemp"><td>Maximum</td><td>{{maxtemp}}° C</td></tr>
+        <tr class="mintemp"><td>Minimum</td><td>{{mintemp}}° C</td></tr>
+    </table>
+
+    </div>
+</div>
