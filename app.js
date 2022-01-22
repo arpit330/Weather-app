@@ -29,7 +29,7 @@ app.post("/", function (req, res) {
     //     Location==req.body.location;
     // }
 
-    const url = "https://api.openweathermap.org/data/2.5/weather?q=" + Location + "&appid=a1ee93f3cea7cd7e6f0b4c44c73a6c73&units=metric";
+    const url = "https://api.openweathermap.org/data/2.5/weather?q=" + Location + "&appid=#&units=metric";
     https.get(url);
 
     https.get(url, function (response) {
